@@ -6,8 +6,8 @@ async function getToDo(){
     let data = await response.json();
     console.log(todo);
     }
-    getToDo();
 
 function showDetails(){
-    console.log("Hello, how are you?")
+    console.log(idInput.value);
+    getToDo()
 }
